@@ -336,11 +336,11 @@ public class Principal extends javax.swing.JFrame {
             try {
                 java.util.List<Garagem> garagens = new GaragemDao().listarGaragem();
 
-                // cria um modelo de tabela básico
+               
                 String[] colunas = {"ID","Nome","País","Estado","Cidade","Bairro","Rua","Número","CEP"};
                 javax.swing.table.DefaultTableModel modeloTabela = new javax.swing.table.DefaultTableModel(colunas, 0);
 
-                // preenche as linhas
+                
                 for (Garagem g : garagens) {
                     Object[] linha = {
                         g.getId(),

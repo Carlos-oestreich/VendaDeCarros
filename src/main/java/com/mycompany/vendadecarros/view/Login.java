@@ -133,7 +133,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "email ou senha invalida.");
             }
         }catch(Exception ex){
-            ex.printStackTrace();
+            
             JOptionPane.showMessageDialog(this, "Erro: " + ex.getMessage());
         }
     }//GEN-LAST:event_jButton1MouseClicked
